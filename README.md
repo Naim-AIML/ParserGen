@@ -1,38 +1,18 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/re-collIDE/ParserGen/refs/heads/main/documentation/media/Screenshot%202026-04-08%20013458.png" alt="ParseGen Logo" width="400"/>
+</p>
+
 # ParseGen
 
-```{=html}
+### Live Demo
+
+ 🔗 Link: https://re-collide.github.io/ParserGen/
+
+### Demo Preview
+
 <p align="center">
-```
-`<img src="https://raw.githubusercontent.com/re-collIDE/ParserGen/refs/heads/main/documentation/media/Screenshot%202026-04-08%20013458.png" alt="ParseGen Logo" width="200"/>`{=html}
-```{=html}
+  <img src="https://raw.githubusercontent.com/re-collIDE/ParserGen/refs/heads/main/documentation/media/Screenshot%202026-04-09%20200904.png" alt="ParseGen Demo Screenshot" width="800"/>
 </p>
-```
-```{=html}
-<p align="center">
-```
-`<b>`{=html}A web-based tool to generate LL(1) and LR(0) parser
-components from a given Context-Free Grammar (CFG)`</b>`{=html}
-```{=html}
-</p>
-```
-
-------------------------------------------------------------------------
-
-## Live Demo
-
-> 🔗 Link: *(will be added later)*
-
-------------------------------------------------------------------------
-
-## Demo Preview
-
-```{=html}
-<p align="center">
-```
-`<img src="https://raw.githubusercontent.com/re-collIDE/ParserGen/refs/heads/main/documentation/media/Screenshot%202026-04-09%20200904.png" alt="ParseGen Demo Screenshot" width="800"/>`{=html}
-```{=html}
-</p>
-```
 
 ------------------------------------------------------------------------
 
@@ -57,7 +37,7 @@ and integrated into a web interface using HTML, CSS, and JavaScript.
 
 ## Architecture / Workflow
 
-``` mermaid
+```mermaid
 flowchart LR
     A[C Source Code] --> B[Emscripten]
     B --> C[WebAssembly (.wasm)]
